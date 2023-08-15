@@ -19,13 +19,16 @@ html body {
     font-family: var(--fonte1);
     min-height: 100vh;
     background-color: aquamarine;
+    
 }
 
 header {
     background-color: black;
-    color: white;
+    color: antiquewhite;
     text-align: center;
-    font-family: var(--fonte2);
+    font-family: var(--fonte2),
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.409);
+   
 }
 
 header > h1 {
@@ -41,7 +44,7 @@ header > p {
 }
 
 header a, footer a {
-    color: white;
+    color:antiquewhite;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -97,7 +100,7 @@ section#img02 {
 
 footer {
     background-color: black;
-    color: white;
+    color:darkseagreen;
     text-align: center;
     padding: 10px;
 }
