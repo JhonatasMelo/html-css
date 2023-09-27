@@ -3,48 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>Desafio 1 Tabela</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
+
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
-
+    
         table {
-            border-collapse: collapse;
             width: 300px;
+            border-collapse: collapse;
         }
-
+    
         td {
             border: 1px solid black;
             padding: 10px;
             text-align: center;
+            vertical-align: middle;
         }
     </style>
+    
 </head>
 <body>
-    <h1>Mesclagem de Células</h1>
+
+
+
+
+    <h1>Tabela</h1>
     <table>
         <tr>
-            <td>A</td>
-            <td colspan="2">B</td>
-            <td rowspan="2">C</td>
+            <td>A1</td>
+            <td>B2</td>
+            <td rowspan="2">C3</td>
+            <td>D4</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>B6</td>
             
-        </tr>
-        <tr>
-            <td rowspan="3">D</td>
-            <td>E</td>
-            <td rowspan="2">F</td>
-        </tr>
-        <tr>
-            <td>G</td>
-            <td rowspan="2">H</td>
+            <td>D7</td>
             
         </tr>
         <tr>
             
+            <td colspan="3">B8</td>
+            <td>D9</td>
             
             
+        </tr>
+        <tr>
+            <td rowspan="2">A10</td>
+            <td colspan="2">B11</td>
+            <td>D12</td>
+
+
+            <tr>
+                <td>B13</td>
+                <td>C14</td>
+                <td>D15</td>
+            </tr>
         </tr>
     </table>
 </body>
